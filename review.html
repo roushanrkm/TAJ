@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>*{
+            margin: 0;
+            padding: 0;
+        }
+		body{
+			background-image:url("wc.jpeg");
+		}
+		#jj{
+			text-align: center;
+		}
+		.jj1{
+			font-size: xx-large;
+		}ul{ 
+        background-color: black;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        list-style-type: none;}
+        li a{
+        display: block;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        li{
+            float: left;
+            display: inline;
+        }
+    li a:hover{
+        background-color: grey ;
+	</style>
+</head>
+<body>
+	<ul>
+    <li><a href="file:///C:/Users/roush/OneDrive/Desktop/menu/home_page.html"> Home</a></li>
+     <li><a href="file:///C:/Users/roush/OneDrive/Desktop/menu/about.html">About us</a></li>
+ <li><a href="file:///C:/Users/roush/OneDrive/Desktop/menu/MNU.html"> Menu</a></li>
+<li><a href="https://www.youtube.com/"> contact us</a></li>
+<li><a href="https://www.youtube.com/"> city</a></li>
+<li><a href="https://www.youtube.com/"> book</a></li>
+<li><a href="file:///C:/Users/roush/OneDrive/Desktop/menu/review.html"> review</a></li>
+<li><a href="https://www.youtube.com/"> more</a></li></ul>
+	<div id="jj">
+		<h1 class="jj1"style="color: red;"><b>Review<b></h1>
+		<form action="/action_page.php">
+  <label for="username"><mark>Name:</mark></label><br>
+  <input type="text" id="username" name="username" required><br><br><br>
+  <label for="nickname"><mark>NickName(if any):</mark></label><br>
+  <input type="text" id="nickname" name="nickname" ><br><br><br>
+  <label for="cnt"><mark>contact number:</mark></label><br>
+  <input type="text" id="cnt" name="cnt" required><br><br><br>
+   <label for="adr"><mark>adress:</mark></label><br>
+  <textarea id="adr"name="adr" required></textarea><br><br><br>
+  <label for = "stay"><mark>Have you stayed in hotel</mark><br>
+    <input type="radio" name="gender" value="male" required>yes
+  </label>
+  <label>
+    <input type="radio" name="gender" value="female">no
+  </label><br><br><br>
+    <label for = "wly"><mark>select one</mark><br><br>
+    <input type="radio" name="wly" value="yes" required><b><mark>I will recommend this hotel to my friend</mark></b>
+  </label><br><br>
+  <label>
+    <input type="radio" name="wly" value="no"><b><mark>I will not recommend this hotel to my friend</mark></b>
+  </label><br><br><br>
+  <label for="rv"><mark>write your review:</mark></label><br>
+  <textarea id="rv"name="rv" required></textarea><br>
+  <br><input type="submit">
+</form>
+	
+</body>
+</html>
